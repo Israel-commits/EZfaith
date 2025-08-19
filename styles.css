@@ -110,9 +110,10 @@ nav a {
 
 .contact-intro {
   background-color: #f8f8f8;
-  padding: 40px 80px;
+  padding: 40px 0;
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
+  padding-left: 12rem;
 }
 
 .contact-intro p {
@@ -125,7 +126,8 @@ nav a {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   background-color: #f8f8f8;
-  padding: 50px 20px;
+  padding: 50px;
+  padding-left: 12rem;
 }
 
 /* Info cards wrapper */
@@ -146,7 +148,6 @@ nav a {
   min-width: 250px;
   text-align: center;
   border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 /* Icon circle */
 .icon-circle {
@@ -181,10 +182,12 @@ nav a {
 }
 .contact-form {
   background-color: #f8f8f8;
-  padding: 30px 80px;
+  padding: 30px;
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
   margin: 0 auto;
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 
 .contact-form h3 {
